@@ -89,6 +89,29 @@ th {
   width: 50%;
 }
 
+.first-image {
+    background-image: url(./img/monitor.jpg);
+    height: 208px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.second-image {
+    background-image: url(./img/graph.jpg);
+    height: 208px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+}
 
 
 
