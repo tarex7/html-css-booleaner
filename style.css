@@ -1,41 +1,50 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
+
 
 .text-gray {
-    color: rgb(128, 128, 128) ;
+  color: rgb(128, 128, 128);
 }
 
 .text-blue {
-    color: rgb(32, 169, 229);
+  color: rgb(32, 169, 229);
 }
 
 h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
+  width: 80%;
 }
 
 p {
-    margin: 5px;
+  margin: 5px;
 }
 
-
-
-.container {
-    width: 60%;
+body {
+    width: 1080px;
     margin: auto;
 }
 
 .header-background {
-    background-color: rgb(78, 160, 255);
-    background-image: url(./img/pattern.png);
-    background-position: 77% 10%;
-    background-size: 40%;
-    height: 70px;
+  background-color: rgb(78, 160, 255);
+  background-image: url(./img/pattern.png);
+  background-position: 77% 10%;
+  background-size: 40%;
+  height: 90px;
 }
 
 header img {
-    width: 20%;
-    margin: 1.5rem 0.5rem .5rem;
+  width: 20%;
+  margin: 1.5rem 0.5rem 0.5rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+
+main {
+  margin: 0.5rem;
 }
