@@ -1,8 +1,26 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+} */
+
+.text-gray {
+    color: rgb(128, 128, 128) ;
 }
+
+.text-blue {
+    color: rgb(32, 169, 229);
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 5px;
+}
+
+
 
 .container {
     width: 60%;
@@ -19,5 +37,5 @@
 
 header img {
     width: 20%;
-    margin: 1.5rem 1rem .5rem;
+    margin: 1.5rem 0.5rem .5rem;
 }
