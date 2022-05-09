@@ -6,8 +6,17 @@
   color: rgb(32, 169, 229);
 }
 
-.highlighted {
+.highlighted-yellow {
   background-color: rgb(255, 255, 0);
+}
+
+.highlighted-blue {
+  background-color: rgb(177, 229, 242);
+}
+
+.th-background {
+    background-color: rgb(32, 169, 229);
+    width: 100%;
 }
 
 h1 {
@@ -43,7 +52,7 @@ figure {
 }
 
 main p {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 figcaption p {
@@ -59,10 +68,29 @@ main {
 }
 
 ul {
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 ul p {
-    margin: 0;
+  margin: 0;
 }
+
+thead {
+  text-align: left;
+  color: #fff;
+}
+
+th {
+    color: #fff;
+    text-align: left;
+}
+
+.rowspan {
+  width: 50%;
+}
+
+.large {
+    width: 50%;
+}
+
 
